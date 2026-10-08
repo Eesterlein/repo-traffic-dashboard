@@ -126,6 +126,8 @@ td a:hover { text-decoration: underline; }
 .section-h .sub a { color: var(--s1); text-decoration: none; }
 .grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; margin-top: 12px; }
 .bars.static .row { cursor: default; }
+.stay td:first-child { max-width: 260px; overflow: hidden; text-overflow: ellipsis; }
+.stay td .pct { color: var(--muted); margin-left: 4px; }
 .list { list-style: none; margin: 0; padding: 0; }
 .list li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--grid); font-size: 13px; }
 .list li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); }
@@ -167,6 +169,18 @@ footer { color: var(--muted); font-size: 12px; margin-top: 24px; line-height: 1.
         <div id="siteChart"></div>
       </div>
       <div class="card"><h2>Most visited pages</h2><div class="sub">Visits, <span data-range></span></div><div class="bars static" id="sitePages"></div></div>
+    </section>
+    <section class="grid2">
+      <div class="card">
+        <h2>Time spent</h2>
+        <div class="sub">Visitors who kept the page open and visible at least this long, <span data-range></span>. Tracked since Oct 8, 2026.</div>
+        <div class="tablewrap" style="margin-top:4px"><table class="stay" id="siteStay"></table></div>
+      </div>
+      <div class="card">
+        <h2>Time of day</h2>
+        <div class="sub" id="hourSub"></div>
+        <div id="hourChart"></div>
+      </div>
     </section>
     <section class="grid3">
       <div class="card"><h2>Link clicks</h2><div class="sub">Live demos, code and other links clicked, <span data-range></span></div><ul class="list" id="siteClicks"></ul></div>
@@ -486,13 +500,15 @@ function renderSites(days) {
   document.getElementById("gcLink").href = `https://${SITES.code}.goatcounter.com/`;
   const inRange = new Set(days);
   const matches = (path) => !state.repo || path.startsWith(`/${state.repo}/`) || path.includes(`/${state.repo}/`) || path.endsWith(`/${state.repo}`);
-  const pages = [], clicks = [];
+  const pages = [], clicks = [], stays = {};
   for (const [path, p] of Object.entries(SITES.pages)) {
     if (!matches(path)) continue;
     let n = 0;
     for (const [d, c] of Object.entries(p.daily)) if (inRange.has(d)) n += c;
     if (!n) continue;
-    (p.event ? clicks : pages).push({ path, label: path === "/" ? "/ (portfolio home)" : path, title: p.title, n });
+    const stay = path.match(/^stay (30s|2m|5m): (.*)$/);
+    if (stay) (stays[stay[2]] ||= {})[stay[1]] = n;
+    else (p.event ? clicks : pages).push({ path, label: pageLabel(path), title: p.title, n });
   }
   pages.sort((a, b) => b.n - a.n); clicks.sort((a, b) => b.n - a.n);
   const visits = pages.reduce((a, p) => a + p.n, 0), clickN = clicks.reduce((a, p) => a + p.n, 0);
@@ -500,9 +516,11 @@ function renderSites(days) {
   const sizeTotal = sizes.reduce((a, x) => a + x.count, 0);
   const phone = sizes.filter(x => x.name === "phone" || x.name === "tablet").reduce((a, x) => a + x.count, 0);
   const country = (SITES.snapshot.countries || [])[0];
+  const stay2m = Object.values(stays).reduce((a, x) => a + (x["2m"] || 0), 0);
   const tilesData = [
     ["Site visits", fmt(visits), state.repo ? `${state.repo} site` : `${pages.length} pages visited`],
     ["Top page", pages[0] ? pages[0].label : "–", pages[0] ? `${fmt(pages[0].n)} visits` : "no visits in range", true],
+    ["Stayed 2+ minutes", visits ? Math.round((stay2m / visits) * 100) + "%" : "–", `${fmt(stay2m)} of ${fmt(visits)} visits`],
     ["Link clicks", fmt(clickN), clicks[0] ? `top: ${clicks[0].title || clicks[0].path}` : "none in range"],
     ["Top country", country ? country.name : "–", "last 30 days", true],
     ["On phone or tablet", sizeTotal ? Math.round((phone / sizeTotal) * 100) + "%" : "–", "last 30 days"],
@@ -531,6 +549,29 @@ function renderSites(days) {
     return row;
   }));
 
+  // Time spent: one row per page that had visits or check-ins
+  const stayRows = [...new Set([...pages.map(p => p.path), ...Object.keys(stays)])].map(path => {
+    const v = (pages.find(p => p.path === path) || { n: 0 }).n, x = stays[path] || {};
+    return { path, v, s30: x["30s"] || 0, s2: x["2m"] || 0, s5: x["5m"] || 0 };
+  }).sort((a, b) => b.v - a.v || b.s30 - a.s30).slice(0, 12);
+  const pctCell = (n, v) => el("td", {}, fmt(n), el("span", { class: "pct" }, v ? `${Math.min(100, Math.round((n / v) * 100))}%` : ""));
+  document.getElementById("siteStay").replaceChildren(
+    el("thead", {}, el("tr", {}, ...["Page", "Visits", "30s+", "2m+", "5m+"].map(h => el("th", { style: "cursor:default" }, h)))),
+    el("tbody", {}, ...(stayRows.length ? stayRows.map(r => el("tr", { style: "cursor:default" },
+      el("td", { title: r.path }, pageLabel(r.path)), el("td", {}, fmt(r.v)),
+      pctCell(r.s30, r.v), pctCell(r.s2, r.v), pctCell(r.s5, r.v)))
+      : [el("tr", {}, el("td", { colspan: 5, class: "empty" }, "No visits in this range yet."))])));
+
+  // Time of day: visits summed by hour across the range
+  const hours = Array(24).fill(0);
+  for (const [path, p] of Object.entries(SITES.pages)) {
+    if (p.event || !matches(path)) continue;
+    for (const [d, hs] of Object.entries(p.hourly || {})) if (inRange.has(d)) for (const [h, n] of Object.entries(hs)) hours[+h] += n;
+  }
+  document.getElementById("hourSub").textContent =
+    `Visits by hour${SITES.timezone ? ` (${SITES.timezone.replace(/_/g, " ")} time)` : ""}, ${fmtSpan(days[0], days.at(-1))}`;
+  hourChart(document.getElementById("hourChart"), hours);
+
   const list = (id, items, empty) => document.getElementById(id).replaceChildren(...(items.length
     ? items.map(([k, v, t]) => el("li", {}, el("span", { title: t || k }, k), el("span", {}, v)))
     : [el("li", {}, el("span", {}, empty))]));
@@ -548,6 +589,42 @@ function renderSites(days) {
   list("siteWho", who, "No visits yet");
   const snap = `Last 30 days (${fmtSpan(SITES.snapshot.start, SITES.snapshot.end)})`;
   document.querySelectorAll("[data-snap]").forEach(e => (e.textContent = snap));
+}
+
+const pageLabel = path => path === "/" ? "/ (portfolio home)" : path;
+
+function hourLabel(h) { return h === 0 ? "12a" : h < 12 ? `${h}a` : h === 12 ? "12p" : `${h - 12}p`; }
+
+function hourChart(host, hours) {
+  const W = Math.max(host.clientWidth, 280), H = 200, m = { t: 10, r: 8, b: 24, l: 34 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const max = niceMax(Math.max(1, ...hours));
+  const NS = "http://www.w3.org/2000/svg";
+  const s = (tag, attrs) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; };
+  const svg = s("svg", { viewBox: `0 0 ${W} ${H}`, height: H, role: "img", "aria-label": "Visits by hour of day" });
+  for (let i = 0; i <= 4; i++) {
+    const v = (max / 4) * i, y = m.t + ih - (v / max) * ih;
+    svg.append(s("line", { x1: m.l, x2: W - m.r, y1: y, y2: y, stroke: i ? css("--grid") : css("--axis"), "stroke-width": 1 }));
+    const t = s("text", { x: m.l - 6, y: y + 3.5, "text-anchor": "end" }); t.textContent = fmt(v); svg.append(t);
+  }
+  const slot = iw / 24, bw = Math.max(2, slot - 2);
+  hours.forEach((n, h) => {
+    const x = m.l + h * slot + 1, bh = (n / max) * ih, y = m.t + ih - bh;
+    if (n) {
+      const r = Math.min(4, bw / 2, bh);
+      svg.append(s("path", { fill: css("--s1"),
+        d: `M${x},${m.t + ih}V${y + r}Q${x},${y} ${x + r},${y}H${x + bw - r}Q${x + bw},${y} ${x + bw},${y + r}V${m.t + ih}Z` }));
+    }
+    if (h % 3 === 0) {
+      const t = s("text", { x: x + bw / 2, y: H - 6, "text-anchor": "middle" }); t.textContent = hourLabel(h); svg.append(t);
+    }
+    const hit = s("rect", { x: m.l + h * slot, y: m.t, width: slot, height: ih, fill: "transparent", tabindex: 0 });
+    const label = `${hourLabel(h)} – ${hourLabel((h + 1) % 24)}`;
+    hit.addEventListener("pointermove", e => showTip(e, label, [[css("--s1"), fmt(n), n === 1 ? "visit" : "visits"]]));
+    hit.addEventListener("pointerleave", hideTip);
+    svg.append(hit);
+  });
+  host.replaceChildren(svg);
 }
 
 function render() {

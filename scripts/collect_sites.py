@@ -1,9 +1,10 @@
 """Collect live-site visits from GoatCounter into data/sites.json.
 
 Covers every page that loads the GoatCounter script (the portfolio and any
-project sites under the same domain). Daily per-page counts are merged into a
-permanent history; referrers, countries and devices are a rolling 30-day
-snapshot because GoatCounter only reports those as totals for a range.
+project sites under the same domain). Daily and hour-of-day per-page counts
+(in the GoatCounter account's timezone) are merged into a permanent history;
+referrers, countries and devices are a rolling 30-day snapshot because
+GoatCounter only reports those as totals for a range.
 
 Env:
   GOATCOUNTER_TOKEN  API token with "Read statistics"
@@ -47,7 +48,7 @@ def all_hits(start, end):
     """Page through /stats/hits; GoatCounter returns at most 100 paths per call."""
     hits, seen = [], []
     while True:
-        params = {"start": stamp(start), "end": stamp(end), "limit": 100, "daily": "true"}
+        params = {"start": stamp(start), "end": stamp(end), "limit": 100}
         if seen:
             params["exclude_paths"] = seen
         page = get("stats/hits", **params)
@@ -77,9 +78,16 @@ def main():
         page = data["pages"].setdefault(h["path"], {"daily": {}})
         page["title"] = h["title"]
         page["event"] = h["event"]
+        hourly = page.setdefault("hourly", {})
         for day in h["stats"]:
             if day["daily"] or day["day"] in page["daily"]:
                 page["daily"][day["day"]] = day["daily"]
+            # Keep only the hours with visits, as {"hour": count}
+            hours = {str(i): n for i, n in enumerate(day.get("hourly") or []) if n}
+            if hours:
+                hourly[day["day"]] = hours
+            else:
+                hourly.pop(day["day"], None)
 
     data["snapshot"] = {
         "start": snap_start.strftime("%Y-%m-%d"),
@@ -90,6 +98,11 @@ def main():
         "systems": top("systems", snap_start, end),
         "sizes": top("sizes", snap_start, end),
     }
+    try:
+        settings = get("me")["user"].get("settings", {})
+        data["timezone"] = settings.get("timezone") or data.get("timezone", "")
+    except Exception:
+        pass
     data["code"] = CODE
     data["collected_at"] = stamp(now)
     DATA_FILE.write_text(json.dumps(data, indent=1, sort_keys=True) + "\n")

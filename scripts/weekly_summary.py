@@ -51,13 +51,35 @@ def site_section(this_week, last_week):
 
     pages = [(path, p, count(p, this_week), count(p, last_week)) for path, p in sites["pages"].items()]
     visits = [x for x in pages if not x[1]["event"]]
-    clicks = [x for x in pages if x[1]["event"] and x[2]]
+    clicks = [x for x in pages if x[1]["event"] and x[0].startswith("click: ") and x[2]]
+    stays = {}
+    for path, _, n, _ in pages:
+        if path.startswith("stay ") and n:
+            mark, target = path[5:].split(": ", 1)
+            stays.setdefault(target, {})[mark] = n
     v, v0 = sum(x[2] for x in visits), sum(x[3] for x in visits)
 
     out = ["### Live sites (portfolio and project pages)",
            f"**{v}** visit{'' if v == 1 else 's'} this week, {change(v, v0)} vs last week ({v0}).", ""]
     top = sorted((x for x in visits if x[2]), key=lambda x: -x[2])[:5]
-    out += [f"- `{path}`{' (portfolio home)' if path == '/' else ''}: {n} visit{'' if n == 1 else 's'}" for path, _, n, _ in top]
+    for path, _, n, _ in top:
+        s = stays.get(path, {})
+        stayed = f" · {s.get('30s', 0)} stayed 30s+, {s.get('2m', 0)} stayed 2m+" if s else ""
+        out.append(f"- `{path}`{' (portfolio home)' if path == '/' else ''}: {n} visit{'' if n == 1 else 's'}{stayed}")
+
+    hours = [0] * 24
+    for _, p, _, _ in visits:
+        for d, hs in p.get("hourly", {}).items():
+            if d in this_week:
+                for h, n in hs.items():
+                    hours[int(h)] += n
+    if any(hours):
+        def label(h):
+            return "12am" if h == 0 else f"{h}am" if h < 12 else "12pm" if h == 12 else f"{h - 12}pm"
+        busiest = sorted(range(24), key=lambda h: -hours[h])[:3]
+        tz = sites.get("timezone", "").replace("_", " ")
+        out += ["", f"**Busiest hours{f' ({tz} time)' if tz else ''}:** "
+                + ", ".join(f"{label(h)}–{label((h + 1) % 24)} ({hours[h]})" for h in busiest if hours[h])]
     if clicks:
         out += ["", "**Links clicked:**"]
         out += [f"- {p['title'] or 'link'} → {path.removeprefix('click: ')}: {n}"
