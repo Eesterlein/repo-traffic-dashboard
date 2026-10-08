@@ -25,10 +25,15 @@ jobs:
           GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
           GH_OWNER: ${{ github.repository_owner }}
         run: python scripts/collect.py
+      - name: Fetch live-site visits from GoatCounter
+        continue-on-error: true
+        env:
+          GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
+        run: python scripts/collect_sites.py
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/traffic.json
+          git add data/
           git diff --cached --quiet || git commit -m "Update traffic data $(date -u +%F)"
           git push

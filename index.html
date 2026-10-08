@@ -121,6 +121,11 @@ td a { color: var(--s1); text-decoration: none; }
 td a:hover { text-decoration: underline; }
 .tag { display: inline-block; font-size: 11px; border: 1px solid var(--border); border-radius: 999px; padding: 0 6px; margin-left: 6px; color: var(--ink-2); }
 .tag.new { color: var(--new); border-color: currentColor; }
+.section-h { display: flex; align-items: baseline; gap: 10px; margin: 26px 0 10px; }
+.section-h h2 { font-size: 17px; margin: 0; }
+.section-h .sub a { color: var(--s1); text-decoration: none; }
+.grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; margin-top: 12px; }
+.bars.static .row { cursor: default; }
 .list { list-style: none; margin: 0; padding: 0; }
 .list li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 1px solid var(--grid); font-size: 13px; }
 .list li span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); }
@@ -151,6 +156,25 @@ footer { color: var(--muted); font-size: 12px; margin-top: 24px; line-height: 1.
     <label class="chk"><input type="checkbox" id="showArchived"> Include archived &amp; forks</label>
   </div>
   <div class="rangeLabel" id="rangeLabel"></div>
+
+  <div id="sites" hidden>
+    <div class="section-h"><h2>Live sites</h2><span class="sub">Portfolio and project pages · <a href="#" id="gcLink" target="_blank" rel="noopener">GoatCounter ↗</a></span></div>
+    <section class="tiles" id="siteTiles"></section>
+    <section class="grid2">
+      <div class="card">
+        <h2>Site visits</h2>
+        <div class="sub" data-range></div>
+        <div id="siteChart"></div>
+      </div>
+      <div class="card"><h2>Most visited pages</h2><div class="sub">Visits, <span data-range></span></div><div class="bars static" id="sitePages"></div></div>
+    </section>
+    <section class="grid3">
+      <div class="card"><h2>Link clicks</h2><div class="sub">Live demos, code and other links clicked, <span data-range></span></div><ul class="list" id="siteClicks"></ul></div>
+      <div class="card"><h2>Where visitors come from</h2><div class="sub" data-snap></div><ul class="list" id="siteRefs"></ul></div>
+      <div class="card"><h2>Countries &amp; devices</h2><div class="sub" data-snap></div><ul class="list" id="siteWho"></ul></div>
+    </section>
+    <div class="section-h"><h2>GitHub repos</h2><span class="sub">Views and clones of the code on github.com</span></div>
+  </div>
 
   <section class="tiles" id="tiles"></section>
 
@@ -186,6 +210,7 @@ footer { color: var(--muted); font-size: 12px; margin-top: 24px; line-height: 1.
   </section>
 
   <footer>
+    Live-site numbers come from GoatCounter and count visitors (repeat loads in a short window count once), with no cookies or personal data.
     Data from the GitHub traffic API, collected daily by a GitHub Action. GitHub keeps only 14 days, so history here starts on each repo's “tracked since” date (back-filled 14 days on first run).
     “Unique” counts are per repo per day: one person visiting two repos, or on two days, counts more than once.
     Clone counts include GitHub Pages builds, CI and crawlers; views are the better signal of human interest.
@@ -228,9 +253,12 @@ const fmtDay = (iso, year) => new Date(iso + "T00:00:00Z").toLocaleDateString("e
 const fmtSpan = (a, b) => a === b ? fmtDay(a, true)
   : `${fmtDay(a, a.slice(0, 4) !== b.slice(0, 4))} – ${fmtDay(b, true)}`;
 
+let SITES = null;
+
 function dataBounds() {
   const all = new Set();
   for (const r of Object.values(DATA.repos)) Object.keys(r.daily).forEach(d => all.add(d));
+  if (SITES) for (const p of Object.values(SITES.pages)) Object.keys(p.daily).forEach(d => all.add(d));
   const sorted = [...all].sort();
   return [sorted[0], sorted.at(-1)];
 }
@@ -450,6 +478,78 @@ function apiWindow() {
   return fmtSpan(isoDay(s), end);
 }
 
+// Live-site section (GoatCounter). A repo filter narrows it to that project's site.
+function renderSites(days) {
+  const box = document.getElementById("sites");
+  box.hidden = !SITES;
+  if (!SITES) return;
+  document.getElementById("gcLink").href = `https://${SITES.code}.goatcounter.com/`;
+  const inRange = new Set(days);
+  const matches = (path) => !state.repo || path.startsWith(`/${state.repo}/`) || path.includes(`/${state.repo}/`) || path.endsWith(`/${state.repo}`);
+  const pages = [], clicks = [];
+  for (const [path, p] of Object.entries(SITES.pages)) {
+    if (!matches(path)) continue;
+    let n = 0;
+    for (const [d, c] of Object.entries(p.daily)) if (inRange.has(d)) n += c;
+    if (!n) continue;
+    (p.event ? clicks : pages).push({ path, label: path === "/" ? "/ (portfolio home)" : path, title: p.title, n });
+  }
+  pages.sort((a, b) => b.n - a.n); clicks.sort((a, b) => b.n - a.n);
+  const visits = pages.reduce((a, p) => a + p.n, 0), clickN = clicks.reduce((a, p) => a + p.n, 0);
+  const sizes = SITES.snapshot.sizes || [];
+  const sizeTotal = sizes.reduce((a, x) => a + x.count, 0);
+  const phone = sizes.filter(x => x.name === "phone" || x.name === "tablet").reduce((a, x) => a + x.count, 0);
+  const country = (SITES.snapshot.countries || [])[0];
+  const tilesData = [
+    ["Site visits", fmt(visits), state.repo ? `${state.repo} site` : `${pages.length} pages visited`],
+    ["Top page", pages[0] ? pages[0].label : "–", pages[0] ? `${fmt(pages[0].n)} visits` : "no visits in range", true],
+    ["Link clicks", fmt(clickN), clicks[0] ? `top: ${clicks[0].title || clicks[0].path}` : "none in range"],
+    ["Top country", country ? country.name : "–", "last 30 days", true],
+    ["On phone or tablet", sizeTotal ? Math.round((phone / sizeTotal) * 100) + "%" : "–", "last 30 days"],
+  ];
+  document.getElementById("siteTiles").replaceChildren(...tilesData.map(([label, value, note, isName]) =>
+    el("div", { class: "tile" }, el("div", { class: "label" }, label),
+      el("div", { class: "value" + (isName ? " name" : "") }, value), el("div", { class: "note" }, note))));
+
+  const series = days.map(d => {
+    let n = 0;
+    for (const [path, p] of Object.entries(SITES.pages)) if (!p.event && matches(path)) n += p.daily[d] || 0;
+    return { d, n };
+  });
+  lineChart(document.getElementById("siteChart"), series, ["n"], ["visits"]);
+
+  const host = document.getElementById("sitePages");
+  const top = pages.slice(0, 10);
+  if (!top.length) host.replaceChildren(el("div", { class: "empty" }, "No visits in this range yet."));
+  else host.replaceChildren(...top.map(p => {
+    const row = el("div", { class: "row" },
+      el("span", { class: "nm", title: p.path }, p.label),
+      el("div", { class: "track" }, el("div", { class: "fill", style: `width:${(p.n / top[0].n) * 100}%` })),
+      el("span", { class: "n" }, fmt(p.n)));
+    row.addEventListener("pointermove", e => showTip(e, p.title || p.path, [[null, fmt(p.n), "visits"]]));
+    row.addEventListener("pointerleave", hideTip);
+    return row;
+  }));
+
+  const list = (id, items, empty) => document.getElementById(id).replaceChildren(...(items.length
+    ? items.map(([k, v, t]) => el("li", {}, el("span", { title: t || k }, k), el("span", {}, v)))
+    : [el("li", {}, el("span", {}, empty))]));
+  list("siteClicks", clicks.slice(0, 10).map(c => {
+    const url = c.path.replace(/^click: /, "");
+    const short = url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+    return [`${c.title ? c.title + " · " : ""}${short}`, `${fmt(c.n)} clicks`, url];
+  }), "No link clicks in this range");
+  list("siteRefs", (SITES.snapshot.referrers || []).slice(0, 10).map(r => [r.name, `${fmt(r.count)} visits`]),
+    "No referrers yet (direct visits don't have one)");
+  const who = [
+    ...(SITES.snapshot.countries || []).slice(0, 5).map(c => [c.name, `${fmt(c.count)} visits`]),
+    ...sizes.filter(x => x.count).map(x => [x.name[0].toUpperCase() + x.name.slice(1).replace("hd", " (large)"), `${fmt(x.count)} visits`]),
+  ];
+  list("siteWho", who, "No visits yet");
+  const snap = `Last 30 days (${fmtSpan(SITES.snapshot.start, SITES.snapshot.end)})`;
+  document.querySelectorAll("[data-snap]").forEach(e => (e.textContent = snap));
+}
+
 function render() {
   const days = dayRange();
   const [first, last] = dataBounds();
@@ -469,6 +569,7 @@ function render() {
   if (state.repo && !names.includes(state.repo)) state.repo = "";
   sel.replaceChildren(el("option", { value: "" }, "All repos"), ...names.map(n => el("option", { value: n }, n)));
   sel.value = state.repo;
+  renderSites(days);
   tiles(agg);
   lineChart(document.getElementById("viewsChart"), agg.series, ["v", "vu"], ["views", "unique visitors"]);
   lineChart(document.getElementById("clonesChart"), agg.series, ["c", "cu"], ["clones", "unique cloners"]);
@@ -496,8 +597,11 @@ document.getElementById("showArchived").addEventListener("change", e => { state.
 let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(render, 150); });
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
 
-fetch("data/traffic.json", { cache: "no-store" }).then(r => r.json()).then(d => {
-  DATA = d;
+Promise.all([
+  fetch("data/traffic.json", { cache: "no-store" }).then(r => r.json()),
+  fetch("data/sites.json", { cache: "no-store" }).then(r => (r.ok ? r.json() : null)).catch(() => null),
+]).then(([d, sites]) => {
+  DATA = d; SITES = sites;
   const when = new Date(d.collected_at);
   document.getElementById("updated").textContent =
     `${Object.keys(d.repos).length} public repos · updated ${when.toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })}`;

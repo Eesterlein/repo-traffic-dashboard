@@ -11,6 +11,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "traffic.json"
+SITES_FILE = DATA_FILE.with_name("sites.json")
 DASHBOARD = "https://eesterlein.github.io/repo-traffic-dashboard/"
 OWNER = os.environ.get("GH_OWNER", "Eesterlein")
 
@@ -37,6 +38,34 @@ def change(now, before):
 
 def fmt_day(d):
     return date.fromisoformat(d).strftime("%b %-d")
+
+
+def site_section(this_week, last_week):
+    """Live-site visits from GoatCounter, if it's set up."""
+    if not SITES_FILE.exists():
+        return []
+    sites = json.loads(SITES_FILE.read_text())
+
+    def count(page, window):
+        return sum(n for d, n in page["daily"].items() if d in window)
+
+    pages = [(path, p, count(p, this_week), count(p, last_week)) for path, p in sites["pages"].items()]
+    visits = [x for x in pages if not x[1]["event"]]
+    clicks = [x for x in pages if x[1]["event"] and x[2]]
+    v, v0 = sum(x[2] for x in visits), sum(x[3] for x in visits)
+
+    out = ["### Live sites (portfolio and project pages)",
+           f"**{v}** visit{'' if v == 1 else 's'} this week, {change(v, v0)} vs last week ({v0}).", ""]
+    top = sorted((x for x in visits if x[2]), key=lambda x: -x[2])[:5]
+    out += [f"- `{path}`{' (portfolio home)' if path == '/' else ''}: {n} visit{'' if n == 1 else 's'}" for path, _, n, _ in top]
+    if clicks:
+        out += ["", "**Links clicked:**"]
+        out += [f"- {p['title'] or 'link'} → {path.removeprefix('click: ')}: {n}"
+                for path, p, n, _ in sorted(clicks, key=lambda x: -x[2])[:5]]
+    refs = sites.get("snapshot", {}).get("referrers", [])[:3]
+    if refs:
+        out += ["", "**Top referrers (30 days):** " + ", ".join(f"{r['name']} ({r['count']})" for r in refs)]
+    return out + [""]
 
 
 def main():
@@ -73,6 +102,8 @@ def main():
         f"| Clones (mostly bots and builds) | {c} | {c0} | {change(c, c0)} |",
         "",
     ]
+
+    out += site_section(this_week, last_week)
 
     viewed = sorted((x for x in rows if x[2]["v"]), key=lambda x: -x[2]["v"])[:5]
     out.append("### Most viewed repos")

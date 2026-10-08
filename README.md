@@ -9,7 +9,8 @@ GitHub only keeps 14 days of traffic data per repo. A scheduled GitHub Action ru
 ## How it works
 
 - `scripts/collect.py` lists all public repos owned by the account and calls the GitHub traffic API for each one (views, clones, referrers, popular paths), then merges the daily numbers into `data/traffic.json`.
-- `.github/workflows/collect.yml` runs the script every day and commits the updated data.
+- `scripts/collect_sites.py` pulls visits to the live sites (portfolio and project pages) from GoatCounter into `data/sites.json`.
+- `.github/workflows/collect.yml` runs both scripts every day and commits the updated data.
 - `.github/workflows/weekly-summary.yml` posts a weekly summary as an issue every Monday morning, which GitHub emails to me.
 - `index.html` is a static page (GitHub Pages) that reads `data/traffic.json` and renders the KPIs, charts and tables.
 
@@ -17,8 +18,9 @@ GitHub only keeps 14 days of traffic data per repo. A scheduled GitHub Action ru
 
 1. Create a fine-grained personal access token with access to **All repositories** and the repository permission **Administration: Read-only** (Metadata: Read-only is added automatically).
 2. Save it as a repository secret named `TRAFFIC_TOKEN`.
-3. Enable GitHub Pages from the `main` branch, root folder.
-4. Run the **Collect traffic** workflow once by hand (Actions tab, then Run workflow) to confirm it works.
+3. For live-site stats, create a GoatCounter API token with **Read statistics** and save it as `GOATCOUNTER_TOKEN`.
+4. Enable GitHub Pages from the `main` branch, root folder.
+5. Run the **Collect traffic** workflow once by hand (Actions tab, then Run workflow) to confirm it works.
 
 ## Notes on the numbers
 
