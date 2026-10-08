@@ -1,0 +1,3541 @@
+{
+ "collected_at": "2026-10-08T01:37:05Z",
+ "owner": "Eesterlein",
+ "repos": {
+  "-data-analyst-portfolio": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 54,
+     "cu": 30,
+     "v": 9,
+     "vu": 2
+    },
+    "2026-09-30": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 21,
+     "cu": 16,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 21,
+     "cu": 12,
+     "v": 9,
+     "vu": 1
+    },
+    "2026-10-05": {
+     "c": 9,
+     "cu": 5,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 67,
+    "clones": 113,
+    "views": 20,
+    "visitors": 2
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-04-09",
+    "description": "Interactive portfolio highlighting data projects, certifications, and skills",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "",
+    "pages": false,
+    "pushed": "2026-10-04",
+    "size_kb": 2187,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/-data-analyst-portfolio",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 13,
+     "path": "/Eesterlein/-data-analyst-portfolio",
+     "title": "Overview",
+     "uniques": 2
+    },
+    {
+     "count": 3,
+     "path": "/Eesterlein/-data-analyst-portfolio/blob/main/Elissa_Esterlein_Resume.pdf",
+     "title": "/blob/main/Elissa_Esterlein_Resume.pdf",
+     "uniques": 1
+    },
+    {
+     "count": 3,
+     "path": "/Eesterlein/-data-analyst-portfolio/tree/main",
+     "title": "/tree/main",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/-data-analyst-portfolio/edit/main/Elissa_Esterlein_Resume.pdf",
+     "title": "/edit/main/Elissa_Esterlein_Resume.pdf",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 13,
+     "referrer": "github.com",
+     "uniques": 1
+    },
+    {
+     "count": 2,
+     "referrer": "Google",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "Appraiser-Photo-Processor": {
+   "daily": {
+    "2026-09-23": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 17,
+     "cu": 10,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 2,
+     "vu": 1
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 18,
+    "clones": 25,
+    "views": 2,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-06-27",
+    "description": "Desktop app for county assessors to automatically classify and rename property photos using GPS, compass direction, and Claude Vision AI",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 79,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/Appraiser-Photo-Processor",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 2,
+     "path": "/Eesterlein/Appraiser-Photo-Processor",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "Building-Local-LLMs-for-Private-Workflows": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 31,
+     "cu": 23,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 29,
+    "clones": 39,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-03-27",
+    "description": "Private RAG chatbot and on-device coding assistant built with Ollama, LlamaIndex, and open-source LLMs. Fully offline.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-10-04",
+    "size_kb": 1145,
+    "stars": 1,
+    "url": "https://github.com/Eesterlein/Building-Local-LLMs-for-Private-Workflows",
+    "watchers": 1
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/Building-Local-LLMs-for-Private-Workflows",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "Eesterlein": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 22,
+     "cu": 18,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 17,
+     "cu": 11,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 16,
+     "cu": 7,
+     "v": 2,
+     "vu": 1
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 40,
+    "clones": 62,
+    "views": 3,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-09-29",
+    "description": "Profile README",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "",
+    "pages": false,
+    "pushed": "2026-10-04",
+    "size_kb": 7,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/Eesterlein",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 2,
+     "path": "/Eesterlein/Eesterlein/edit/main/README.md",
+     "title": "/edit/main/README.md",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/Eesterlein/blob/main/README.md",
+     "title": "/blob/main/README.md",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 2,
+     "referrer": "github.com",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "Gunnison-County-Map-Explorer": {
+   "daily": {
+    "2026-09-23": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 103,
+     "cu": 20,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 5,
+     "cu": 5,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 32,
+    "clones": 115,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-02-08",
+    "description": "Gunnison County Map Explorer is an interactive, public-facing GIS web application built with modern open-source mapping technologies.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 61,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/Gunnison-County-Map-Explorer",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "My-2024-Garmin-Data-Analysis-": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 4,
+    "clones": 6,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-03-19",
+    "description": "Analysis of my 2024 Garmin fitness trends and insights.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/My-2024-Garmin-Data-Analysis-/",
+    "language": "Python",
+    "pages": true,
+    "pushed": "2025-07-28",
+    "size_kb": 679,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/My-2024-Garmin-Data-Analysis-",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "Parcel-Based-MLS-Photo-Renaming-Classification-Tool": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 23,
+     "cu": 12,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 17,
+    "clones": 28,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": true,
+    "created": "2025-12-31",
+    "description": "Earlier version of the MLS photo renaming tool. Superseded by Appraiser-Photo-Processor.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 50,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/Parcel-Based-MLS-Photo-Renaming-Classification-Tool",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "assessor-map": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 32,
+     "cu": 22,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 13,
+     "cu": 8,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 18,
+     "cu": 8,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 9,
+     "cu": 5,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 47,
+    "clones": 84,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-07-12",
+    "description": "Full-stack GIS platform for Gunnison County assessors: configurable map layers, CSV/Excel joins to parcels, live wildfire detections. React, TypeScript, MapLibre, PostGIS, Docker.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "http://165.232.147.15",
+    "language": "TypeScript",
+    "pages": false,
+    "pushed": "2026-10-04",
+    "size_kb": 17897,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/assessor-map",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/assessor-map",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 1,
+     "referrer": "github.com",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "colorado-land-ownership": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 13,
+     "cu": 8,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 11,
+    "clones": 20,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-04-08",
+    "description": "Who owns Colorado? Geospatial analysis of public vs. private land ownership statewide, with a Gunnison County case study. Python.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/colorado-land-ownership/",
+    "language": "Python",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 5514,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/colorado-land-ownership",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "cyclistic-bike-share-case-study": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 2,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 4,
+    "clones": 5,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-03-09",
+    "description": "An exploratory data analysis of Cyclistic bike-share data using R to uncover insights into customer behavior and trip trends",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "R",
+    "pages": false,
+    "pushed": "2025-03-09",
+    "size_kb": 95,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/cyclistic-bike-share-case-study",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "eesterlein.github.io": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 97,
+     "cu": 52,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 6,
+     "cu": 6,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 58,
+     "cu": 30,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 84,
+    "clones": 163,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-10-02",
+    "description": "Personal portfolio and resume: data analysis, GIS, and civic-tech projects",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io",
+    "language": "JavaScript",
+    "pages": true,
+    "pushed": "2026-10-04",
+    "size_kb": 1032,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/eesterlein.github.io",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "git-sandbox-lab": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 4,
+    "clones": 6,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": true,
+    "created": "2026-02-17",
+    "description": "Practice repo for learning Git workflows",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "",
+    "pages": false,
+    "pushed": "2026-02-17",
+    "size_kb": 2,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/git-sandbox-lab",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-airport-tracker": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 21,
+     "cu": 12,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 16,
+    "clones": 25,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-04-25",
+    "description": "Real-time flight tracker for Gunnison Airport (KGUC) using the OpenSky API, with private-flight logging to PostgreSQL. Node.js.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "JavaScript",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 58,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-airport-tracker",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-airport-tracker/pulls",
+     "title": "/pulls",
+     "uniques": 1
+    }
+   ],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-assessor-audit": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 36,
+     "cu": 21,
+     "v": 4,
+     "vu": 2
+    },
+    "2026-09-30": {
+     "c": 2,
+     "cu": 2,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-02": {
+     "c": 4,
+     "cu": 4,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 28,
+    "clones": 47,
+    "views": 6,
+    "visitors": 2
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-09-29",
+    "description": "AI-benchmarked digital-service review of the Gunnison County, CO assessor website (ChatGPT/Gemini/Claude), with a statewide 24-county comparison and a merged action plan.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-assessor-audit/",
+    "language": "HTML",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 17,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-assessor-audit",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 5,
+     "path": "/Eesterlein/gunnison-assessor-audit",
+     "title": "Overview",
+     "uniques": 2
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-assessor-audit/blob/main/index.html",
+     "title": "/blob/main/index.html",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 5,
+     "referrer": "github.com",
+     "uniques": 2
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-assessor-map": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 2,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 3,
+    "clones": 4,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": true,
+    "created": "2026-02-11",
+    "description": "Earlier prototype of the Assessor Map. Superseded by assessor-map.",
+    "fork": true,
+    "forks": 0,
+    "homepage": "",
+    "language": "TypeScript",
+    "pages": false,
+    "pushed": "2026-02-11",
+    "size_kb": 31931,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-assessor-map",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-building-stock": {
+   "daily": {
+    "2026-09-23": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 11,
+     "cu": 7,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 17,
+    "clones": 21,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-09-02",
+    "description": "Interactive dashboard of 18,312 Gunnison County assessor building records",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-building-stock/",
+    "language": "HTML",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 13,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-building-stock",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-county-property-tax-calculator": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 13,
+     "cu": 7,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-09-30": {
+     "c": 3,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-02": {
+     "c": 2,
+     "cu": 1,
+     "v": 2,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 3,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 3,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 11,
+    "clones": 25,
+    "views": 4,
+    "visitors": 2
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-02-01",
+    "description": "Educational, client-side property tax calculator for Gunnison County, Colorado. Uses publicly available data to demonstrate how assessed values and mill levies are used to estimate property taxes. Not an official tax system.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-county-property-tax-calculator/",
+    "language": "JavaScript",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 2550,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-county-property-tax-calculator",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 3,
+     "path": "/Eesterlein/gunnison-county-property-tax-calculator",
+     "title": "Overview",
+     "uniques": 2
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-county-property-tax-calculator/blob/main/Informational Overview.md",
+     "title": "/blob/main/Informational Overview.md",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 3,
+     "referrer": "github.com",
+     "uniques": 2
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-housing-snapshots": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 11,
+     "cu": 7,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 10,
+     "cu": 6,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 17,
+    "clones": 25,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-08-16",
+    "description": "Interactive snapshots of Gunnison County's housing market before and after COVID (2017\u201318 vs. 2022\u201323), with affordability and national context.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-housing-snapshots/",
+    "language": "HTML",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 15,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-housing-snapshots",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-land-attribute-dashboard": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 30,
+     "cu": 16,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-02": {
+     "c": 11,
+     "cu": 7,
+     "v": 15,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 5,
+     "vu": 1
+    },
+    "2026-10-06": {
+     "c": 4,
+     "cu": 2,
+     "v": 8,
+     "vu": 1
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 25,
+    "clones": 45,
+    "views": 29,
+    "visitors": 2
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-10-01",
+    "description": "Land attribute map and review dashboard for the Gunnison County Assessor, reading data from RealWare. In development.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "JavaScript",
+    "pages": false,
+    "pushed": "2026-10-06",
+    "size_kb": 2307,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-land-attribute-dashboard",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 6,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard",
+     "title": "Overview",
+     "uniques": 2
+    },
+    {
+     "count": 3,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/docs/ARCHITECTURE.md",
+     "title": "/blob/main/docs/ARCHITECTURE.md",
+     "uniques": 2
+    },
+    {
+     "count": 2,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/docs/HOSTING.md",
+     "title": "/blob/main/docs/HOSTING.md",
+     "uniques": 2
+    },
+    {
+     "count": 2,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/docs/IT_QUICK_ANSWERS.md",
+     "title": "/blob/main/docs/IT_QUICK_ANSWERS.md",
+     "uniques": 2
+    },
+    {
+     "count": 2,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/server",
+     "title": "/blob/main/server",
+     "uniques": 2
+    },
+    {
+     "count": 2,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/tree/main/scripts",
+     "title": "/tree/main/scripts",
+     "uniques": 1
+    },
+    {
+     "count": 2,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/tree/main/server",
+     "title": "/tree/main/server",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/.github/workflows/release.yml",
+     "title": "/blob/main/.github/workflows/release.yml",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/assets/app.js",
+     "title": "/blob/main/assets/app.js",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-land-attribute-dashboard/blob/main/assets/data.js",
+     "title": "/blob/main/assets/data.js",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 6,
+     "referrer": "github.com",
+     "uniques": 2
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-land-attributes-demo": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 44,
+     "cu": 32,
+     "v": 6,
+     "vu": 2
+    },
+    "2026-09-30": {
+     "c": 7,
+     "cu": 6,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 59,
+     "cu": 36,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 12,
+     "cu": 8,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 4,
+     "cu": 4,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 82,
+    "clones": 129,
+    "views": 7,
+    "visitors": 2
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-09-29",
+    "description": "Independent research dashboard: interactive map and review tool for land attributes on Gunnison County, CO parcels, built from public assessor data.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-land-attributes-demo/",
+    "language": "JavaScript",
+    "pages": true,
+    "pushed": "2026-10-01",
+    "size_kb": 4455,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-land-attributes-demo",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 5,
+     "path": "/Eesterlein/gunnison-land-attributes",
+     "title": "Overview",
+     "uniques": 2
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-land-attributes-demo",
+     "title": "Overview",
+     "uniques": 1
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-land-attributes/commits",
+     "title": "/commits",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 6,
+     "referrer": "github.com",
+     "uniques": 2
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-permit-portal": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 15,
+     "cu": 8,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 3,
+     "cu": 3,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 15,
+    "clones": 24,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-04-11",
+    "description": "Public building-permit search and staff admin portal for Gunnison County jurisdictions. React, Node/Express, PostgreSQL/Prisma, AWS.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "JavaScript",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 150,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-permit-portal",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-permit-portal",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 1,
+     "referrer": "Google",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-property-eye": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 11,
+     "cu": 6,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 11,
+    "clones": 16,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-04-14",
+    "description": "Satellite change detection for property assessment: flags parcels with new construction using Sentinel-2 NDBI via Google Earth Engine. FastAPI, PostGIS, React.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 58,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-property-eye",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-property-eye",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 1,
+     "referrer": "eesterlein.github.io",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison-residential-condition": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 14,
+     "cu": 9,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 10,
+    "clones": 15,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-09-01",
+    "description": "Interactive dashboard of residential improvement condition, quality and value across Gunnison County economic areas. Plotly.js.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison-residential-condition/",
+    "language": "HTML",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 215,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison-residential-condition",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison_ai_demos": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 13,
+     "cu": 7,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 12,
+     "cu": 9,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 2,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 1,
+     "vu": 1
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 19,
+    "clones": 30,
+    "views": 1,
+    "visitors": 1
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-05-02",
+    "description": "Streamlit prototypes: aerial change-detection mock-up and a GPT-based correspondence assistant for an assessor's office.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 4427,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison_ai_demos",
+    "watchers": 0
+   },
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison_ai_demos",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
+   "referrers": [
+    {
+     "count": 1,
+     "referrer": "eesterlein.github.io",
+     "uniques": 1
+    }
+   ],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "gunnison_gis_mapping_static_demo": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 13,
+     "cu": 9,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 2,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 12,
+    "clones": 18,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-10-23",
+    "description": "Static Leaflet map of Gunnison County parcels colored by view, exterior condition, or value, built from public assessor data.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/gunnison_gis_mapping_static_demo/",
+    "language": "JavaScript",
+    "pages": true,
+    "pushed": "2026-09-29",
+    "size_kb": 15084,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/gunnison_gis_mapping_static_demo",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "lottery-project": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 9,
+    "clones": 11,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": true,
+    "created": "2026-09-01",
+    "description": "Frequency-weighted Powerball and Millionaire for Life number picker built from historical drawing data.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "https://eesterlein.github.io/lottery-project/",
+    "language": "Python",
+    "pages": true,
+    "pushed": "2026-09-01",
+    "size_kb": 19,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/lottery-project",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "storybook-components": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 2,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 4,
+    "clones": 5,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-03-29",
+    "description": "Storybook components for maps that display layers from OGC APIs",
+    "fork": true,
+    "forks": 0,
+    "homepage": "",
+    "language": "",
+    "pages": false,
+    "pushed": "2026-03-29",
+    "size_kb": 1082,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/storybook-components",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "us-state-demographics-sql-acs2019": {
+   "daily": {
+    "2026-09-23": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 2,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 2,
+    "clones": 3,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-04-19",
+    "description": "A SQL-based analysis of U.S. state-level demographics using 2019 ACS data",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "",
+    "pages": false,
+    "pushed": "2025-04-19",
+    "size_kb": 360,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/us-state-demographics-sql-acs2019",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  },
+  "zillow-photo-scraper-scraperapi": {
+   "daily": {
+    "2026-09-23": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-24": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-25": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-26": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-27": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-28": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-29": {
+     "c": 12,
+     "cu": 7,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-09-30": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-01": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-02": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-05": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-10-06": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-10-08",
+   "last14": {
+    "cloners": 13,
+    "clones": 19,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2025-12-08",
+    "description": "Zillow photo scraper built with Python and ScraperAPI. Fetches listing HTML, extracts property images, and saves files with account and MLS-based naming for appraisal and data workflows.",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-09-29",
+    "size_kb": 51,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/zillow-photo-scraper-scraperapi",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-10-08T01:37:05Z"
+  }
+ }
+}
