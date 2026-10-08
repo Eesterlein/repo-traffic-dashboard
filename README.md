@@ -1,5 +1,7 @@
 # Repo Traffic Dashboard
 
+**Live dashboard: https://eesterlein.github.io/repo-traffic-dashboard/**
+
 A single dashboard for views, unique visitors, clones, referrers and popular pages across all of my public GitHub repositories.
 
 GitHub only keeps 14 days of traffic data per repo. A scheduled GitHub Action runs daily, pulls traffic for every public repo I own, and merges it into `data/traffic.json`, so history builds up over time. New repos are picked up automatically on the next run.
