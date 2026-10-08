@@ -10,6 +10,7 @@ GitHub only keeps 14 days of traffic data per repo. A scheduled GitHub Action ru
 
 - `scripts/collect.py` lists all public repos owned by the account and calls the GitHub traffic API for each one (views, clones, referrers, popular paths), then merges the daily numbers into `data/traffic.json`.
 - `.github/workflows/collect.yml` runs the script every day and commits the updated data.
+- `.github/workflows/weekly-summary.yml` posts a weekly summary as an issue every Monday morning, which GitHub emails to me.
 - `index.html` is a static page (GitHub Pages) that reads `data/traffic.json` and renders the KPIs, charts and tables.
 
 ## Setup

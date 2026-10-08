@@ -1,0 +1,32 @@
+name: Weekly summary
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"   # Mondays, ~8am Mountain time
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Post summary as an issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_OWNER: ${{ github.repository_owner }}
+        run: |
+          python scripts/weekly_summary.py > summary.md
+          title=$(head -n 1 summary.md)
+          tail -n +2 summary.md > body.md
+          # Close last week's summary so only the latest stays open
+          for n in $(gh issue list --label weekly-summary --state open --json number -q '.[].number'); do
+            gh issue close "$n" --reason completed
+          done
+          gh issue create --title "$title" --body-file body.md --label weekly-summary
