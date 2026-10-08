@@ -1,12 +1,17 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-10-08T02:55:21Z",
+ "collected_at": "2026-10-08T03:34:39Z",
  "pages": {
   "/": {
    "daily": {
     "2026-10-07": 1
    },
    "event": false,
+   "hourly": {
+    "2026-10-07": {
+     "20": 1
+    }
+   },
    "title": "Elissa Esterlein"
   }
  },
@@ -43,5 +48,6 @@
     "name": "macOS"
    }
   ]
- }
+ },
+ "timezone": "US.America/Denver"
 }
