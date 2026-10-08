@@ -569,7 +569,7 @@ function renderSites(days) {
     for (const [d, hs] of Object.entries(p.hourly || {})) if (inRange.has(d)) for (const [h, n] of Object.entries(hs)) hours[+h] += n;
   }
   document.getElementById("hourSub").textContent =
-    `Visits by hour${SITES.timezone ? ` (${SITES.timezone.replace(/_/g, " ")} time)` : ""}, ${fmtSpan(days[0], days.at(-1))}`;
+    `Visits by hour${SITES.timezone ? ` (${SITES.timezone.split(".").pop().replace(/_/g, " ")} time)` : ""}, ${fmtSpan(days[0], days.at(-1))}`;
   hourChart(document.getElementById("hourChart"), hours);
 
   const list = (id, items, empty) => document.getElementById(id).replaceChildren(...(items.length

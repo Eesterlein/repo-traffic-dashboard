@@ -77,7 +77,7 @@ def site_section(this_week, last_week):
         def label(h):
             return "12am" if h == 0 else f"{h}am" if h < 12 else "12pm" if h == 12 else f"{h - 12}pm"
         busiest = sorted(range(24), key=lambda h: -hours[h])[:3]
-        tz = sites.get("timezone", "").replace("_", " ")
+        tz = sites.get("timezone", "").split(".")[-1].replace("_", " ")
         out += ["", f"**Busiest hours{f' ({tz} time)' if tz else ''}:** "
                 + ", ".join(f"{label(h)}–{label((h + 1) % 24)} ({hours[h]})" for h in busiest if hours[h])]
     if clicks:
