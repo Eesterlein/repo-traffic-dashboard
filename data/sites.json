@@ -1,37 +1,65 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-10-08T13:39:40Z",
+ "collected_at": "2026-10-10T12:41:05Z",
  "pages": {
   "/": {
    "daily": {
-    "2026-10-07": 1
+    "2026-10-07": 1,
+    "2026-10-08": 1
    },
    "event": false,
    "hourly": {
     "2026-10-07": {
      "20": 1
+    },
+    "2026-10-08": {
+     "9": 1
     }
    },
    "title": "Elissa Esterlein"
+  },
+  "stay 2m: /": {
+   "daily": {
+    "2026-10-08": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-08": {
+     "10": 1
+    }
+   },
+   "title": "Stayed 2m+"
+  },
+  "stay 30s: /": {
+   "daily": {
+    "2026-10-08": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-08": {
+     "9": 1
+    }
+   },
+   "title": "Stayed 30s+"
   }
  },
  "snapshot": {
   "browsers": [
    {
-    "count": 1,
+    "count": 4,
     "name": "Chrome"
    }
   ],
   "countries": [
    {
-    "count": 1,
+    "count": 4,
     "name": "United States"
    }
   ],
-  "end": "2026-10-08",
+  "end": "2026-10-10",
   "referrers": [
    {
-    "count": 1,
+    "count": 4,
     "name": "github.com"
    }
   ],
@@ -39,12 +67,16 @@
    {
     "count": 1,
     "name": "desktop"
+   },
+   {
+    "count": 3,
+    "name": "desktophd"
    }
   ],
-  "start": "2026-09-09",
+  "start": "2026-09-11",
   "systems": [
    {
-    "count": 1,
+    "count": 4,
     "name": "macOS"
    }
   ]
