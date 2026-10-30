@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-10-29T13:13:40Z",
+ "collected_at": "2026-10-30T13:05:30Z",
  "owner": "Eesterlein",
  "repos": {
   "-data-analyst-portfolio": {
@@ -219,12 +219,18 @@
      "cu": 0,
      "v": 1,
      "vu": 1
+    },
+    "2026-10-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 5,
-    "clones": 6,
+    "cloners": 6,
+    "clones": 9,
     "views": 5,
     "visitors": 4
    },
@@ -258,7 +264,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "Appraiser-Photo-Processor": {
    "daily": {
@@ -477,14 +483,20 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 1,
+     "vu": 1
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
     "cloners": 7,
     "clones": 7,
-    "views": 0,
-    "visitors": 0
+    "views": 1,
+    "visitors": 1
    },
    "meta": {
     "archived": false,
@@ -501,9 +513,16 @@
     "url": "https://github.com/Eesterlein/Appraiser-Photo-Processor",
     "watchers": 0
    },
-   "paths": [],
+   "paths": [
+    {
+     "count": 1,
+     "path": "/Eesterlein/Appraiser-Photo-Processor",
+     "title": "Overview",
+     "uniques": 1
+    }
+   ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "Building-Local-LLMs-for-Private-Workflows": {
    "daily": {
@@ -722,12 +741,18 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 6,
-    "clones": 8,
+    "cloners": 7,
+    "clones": 9,
     "views": 8,
     "visitors": 3
    },
@@ -767,7 +792,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "Eesterlein": {
    "daily": {
@@ -986,12 +1011,18 @@
      "cu": 6,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 22,
-    "clones": 36,
+    "cloners": 23,
+    "clones": 37,
     "views": 0,
     "visitors": 0
    },
@@ -1012,7 +1043,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "Gunnison-County-Map-Explorer": {
    "daily": {
@@ -1231,6 +1262,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -1257,7 +1294,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "My-2024-Garmin-Data-Analysis-": {
    "daily": {
@@ -1476,13 +1513,19 @@
      "cu": 1,
      "v": 5,
      "vu": 1
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 4,
+     "vu": 1
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
     "cloners": 7,
     "clones": 9,
-    "views": 8,
+    "views": 12,
     "visitors": 1
    },
    "meta": {
@@ -1502,7 +1545,7 @@
    },
    "paths": [
     {
-     "count": 7,
+     "count": 11,
      "path": "/Eesterlein/My-2024-Garmin-Data-Analysis-/blob/main/index.md",
      "title": "/blob/main/index.md",
      "uniques": 1
@@ -1521,7 +1564,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "Parcel-Based-MLS-Photo-Renaming-Classification-Tool": {
    "daily": {
@@ -1740,6 +1783,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -1766,7 +1815,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "ai-field-guide": {
    "daily": {
@@ -1883,12 +1932,18 @@
      "cu": 7,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-23",
    "last14": {
-    "cloners": 34,
-    "clones": 63,
+    "cloners": 35,
+    "clones": 64,
     "views": 1,
     "visitors": 1
    },
@@ -1922,7 +1977,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "assessor-map": {
    "daily": {
@@ -2141,6 +2196,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -2174,7 +2235,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "colorado-land-ownership": {
    "daily": {
@@ -2393,6 +2454,12 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -2419,7 +2486,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "cyclistic-bike-share-case-study": {
    "daily": {
@@ -2638,6 +2705,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -2664,7 +2737,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "eesterlein.github.io": {
    "daily": {
@@ -2883,6 +2956,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -2916,7 +2995,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "git-sandbox-lab": {
    "daily": {
@@ -3135,6 +3214,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -3161,7 +3246,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-airport-tracker": {
    "daily": {
@@ -3380,12 +3465,18 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 3,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 6,
-    "clones": 8,
+    "cloners": 5,
+    "clones": 9,
     "views": 0,
     "visitors": 0
    },
@@ -3406,7 +3497,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-assessor-audit": {
    "daily": {
@@ -3625,13 +3716,19 @@
      "cu": 1,
      "v": 1,
      "vu": 1
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 2,
+     "vu": 1
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
     "cloners": 6,
     "clones": 6,
-    "views": 2,
+    "views": 4,
     "visitors": 2
    },
    "meta": {
@@ -3651,10 +3748,16 @@
    },
    "paths": [
     {
-     "count": 2,
+     "count": 3,
      "path": "/Eesterlein/gunnison-assessor-audit",
      "title": "Overview",
      "uniques": 2
+    },
+    {
+     "count": 1,
+     "path": "/Eesterlein/gunnison-assessor-audit/pulls",
+     "title": "/pulls",
+     "uniques": 1
     }
    ],
    "referrers": [
@@ -3664,7 +3767,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-assessor-map": {
    "daily": {
@@ -3883,6 +3986,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -3909,7 +4018,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-building-stock": {
    "daily": {
@@ -4128,6 +4237,12 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -4154,7 +4269,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-county-property-tax-calculator": {
    "daily": {
@@ -4373,6 +4488,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -4399,7 +4520,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-housing-snapshots": {
    "daily": {
@@ -4618,12 +4739,18 @@
      "cu": 2,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 5,
-    "clones": 8,
+    "cloners": 6,
+    "clones": 9,
     "views": 0,
     "visitors": 0
    },
@@ -4644,7 +4771,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-land-attribute-dashboard": {
    "daily": {
@@ -4863,12 +4990,18 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 4,
+     "cu": 2,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 27,
-    "clones": 54,
+    "cloners": 26,
+    "clones": 52,
     "views": 2,
     "visitors": 2
    },
@@ -4881,8 +5014,8 @@
     "homepage": "",
     "language": "JavaScript",
     "pages": false,
-    "pushed": "2026-10-21",
-    "size_kb": 2608,
+    "pushed": "2026-10-29",
+    "size_kb": 2615,
     "stars": 0,
     "url": "https://github.com/Eesterlein/gunnison-land-attribute-dashboard",
     "watchers": 0
@@ -4896,7 +5029,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-land-attributes-demo": {
    "daily": {
@@ -5115,12 +5248,18 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 7,
-    "clones": 7,
+    "cloners": 8,
+    "clones": 8,
     "views": 0,
     "visitors": 0
    },
@@ -5141,7 +5280,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-permit-portal": {
    "daily": {
@@ -5360,6 +5499,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -5386,7 +5531,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-property-eye": {
    "daily": {
@@ -5605,6 +5750,12 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -5644,7 +5795,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-residential-condition": {
    "daily": {
@@ -5863,6 +6014,12 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -5889,7 +6046,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison-str-dashboard": {
    "daily": {
@@ -6012,12 +6169,18 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-22",
    "last14": {
-    "cloners": 36,
-    "clones": 64,
+    "cloners": 37,
+    "clones": 65,
     "views": 0,
     "visitors": 0
    },
@@ -6038,7 +6201,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison_ai_demos": {
    "daily": {
@@ -6257,6 +6420,12 @@
      "cu": 2,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -6283,7 +6452,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "gunnison_gis_mapping_static_demo": {
    "daily": {
@@ -6502,12 +6671,18 @@
      "cu": 5,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 7,
+     "cu": 7,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 16,
-    "clones": 16,
+    "cloners": 23,
+    "clones": 23,
     "views": 0,
     "visitors": 0
    },
@@ -6528,7 +6703,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "lottery-project": {
    "daily": {
@@ -6747,6 +6922,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -6773,7 +6954,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "repo-traffic-dashboard": {
    "daily": {
@@ -6980,12 +7161,18 @@
      "cu": 3,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 18,
+     "cu": 10,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 59,
-    "clones": 154,
+    "cloners": 65,
+    "clones": 166,
     "views": 0,
     "visitors": 0
    },
@@ -6998,15 +7185,15 @@
     "homepage": "https://eesterlein.github.io/repo-traffic-dashboard/",
     "language": "HTML",
     "pages": true,
-    "pushed": "2026-10-28",
-    "size_kb": 118,
+    "pushed": "2026-10-29",
+    "size_kb": 120,
     "stars": 0,
     "url": "https://github.com/Eesterlein/repo-traffic-dashboard",
     "watchers": 0
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "second-thought": {
    "daily": {
@@ -7213,12 +7400,18 @@
      "cu": 1,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 6,
-    "clones": 6,
+    "cloners": 5,
+    "clones": 5,
     "views": 0,
     "visitors": 0
    },
@@ -7239,7 +7432,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "storybook-components": {
    "daily": {
@@ -7458,6 +7651,12 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
@@ -7484,7 +7683,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "us-state-demographics-sql-acs2019": {
    "daily": {
@@ -7703,12 +7902,18 @@
      "cu": 0,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 1,
+     "cu": 1,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 3,
-    "clones": 4,
+    "cloners": 4,
+    "clones": 5,
     "views": 0,
     "visitors": 0
    },
@@ -7729,7 +7934,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   },
   "zillow-photo-scraper-scraperapi": {
    "daily": {
@@ -7948,13 +8153,19 @@
      "cu": 2,
      "v": 0,
      "vu": 0
+    },
+    "2026-10-29": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
     }
    },
    "first_tracked": "2026-10-08",
    "last14": {
-    "cloners": 8,
-    "clones": 8,
-    "views": 7,
+    "cloners": 7,
+    "clones": 7,
+    "views": 6,
     "visitors": 2
    },
    "meta": {
@@ -7974,10 +8185,10 @@
    },
    "paths": [
     {
-     "count": 3,
+     "count": 2,
      "path": "/Eesterlein/zillow-photo-scraper-scraperapi",
      "title": "Overview",
-     "uniques": 2
+     "uniques": 1
     },
     {
      "count": 1,
@@ -8011,7 +8222,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-10-29T13:13:40Z"
+   "updated": "2026-10-30T13:05:30Z"
   }
  }
 }
