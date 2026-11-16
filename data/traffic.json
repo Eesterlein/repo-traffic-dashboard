@@ -1,5 +1,5 @@
 {
- "collected_at": "2026-11-15T14:02:55Z",
+ "collected_at": "2026-11-16T15:59:02Z",
  "owner": "Eesterlein",
  "repos": {
   "-data-analyst-portfolio": {
@@ -354,7 +354,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "Appraiser-Photo-Processor": {
    "daily": {
@@ -708,7 +708,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "Building-Local-LLMs-for-Private-Workflows": {
    "daily": {
@@ -1074,7 +1074,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "Eesterlein": {
    "daily": {
@@ -1440,7 +1440,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "Gunnison-County-Map-Explorer": {
    "daily": {
@@ -1787,7 +1787,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "My-2024-Garmin-Data-Analysis-": {
    "daily": {
@@ -2134,7 +2134,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "Parcel-Based-MLS-Photo-Renaming-Classification-Tool": {
    "daily": {
@@ -2481,7 +2481,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "ai-field-guide": {
    "daily": {
@@ -2739,7 +2739,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "assessor-map": {
    "daily": {
@@ -3086,7 +3086,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "blue-mesa-water-report": {
    "daily": {
@@ -3248,7 +3248,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "colorado-land-ownership": {
    "daily": {
@@ -3595,7 +3595,120 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
+  },
+  "covid-trials-ai": {
+   "daily": {
+    "2026-11-03": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-04": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-05": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-06": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-07": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-08": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-09": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-10": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-11": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-12": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-13": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-14": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-15": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    },
+    "2026-11-16": {
+     "c": 0,
+     "cu": 0,
+     "v": 0,
+     "vu": 0
+    }
+   },
+   "first_tracked": "2026-11-16",
+   "last14": {
+    "cloners": 0,
+    "clones": 0,
+    "views": 0,
+    "visitors": 0
+   },
+   "meta": {
+    "archived": false,
+    "created": "2026-11-16",
+    "description": "AI assistant that answers COVID-19 questions from 10,269 clinical trials and 1,630 papers, with every claim cited and statistics computed in code",
+    "fork": false,
+    "forks": 0,
+    "homepage": "",
+    "language": "Python",
+    "pages": false,
+    "pushed": "2026-11-16",
+    "size_kb": 697,
+    "stars": 0,
+    "url": "https://github.com/Eesterlein/covid-trials-ai",
+    "watchers": 0
+   },
+   "paths": [],
+   "referrers": [],
+   "updated": "2026-11-16T15:59:02Z"
   },
   "cyclistic-bike-share-case-study": {
    "daily": {
@@ -3942,7 +4055,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "eesterlein.github.io": {
    "daily": {
@@ -4289,7 +4402,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "git-sandbox-lab": {
    "daily": {
@@ -4636,7 +4749,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "github-field-guide": {
    "daily": {
@@ -4815,7 +4928,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-airport-tracker": {
    "daily": {
@@ -5162,7 +5275,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-assessor-audit": {
    "daily": {
@@ -5516,7 +5629,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-assessor-map": {
    "daily": {
@@ -5863,7 +5976,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-assessor-year": {
    "daily": {
@@ -6025,7 +6138,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-building-stock": {
    "daily": {
@@ -6372,7 +6485,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-county-property-tax-calculator": {
    "daily": {
@@ -6719,7 +6832,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-housing-snapshots": {
    "daily": {
@@ -7066,7 +7179,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-land-attribute-dashboard": {
    "daily": {
@@ -7420,7 +7533,7 @@
     }
    ],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-land-attributes-demo": {
    "daily": {
@@ -7767,7 +7880,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-permit-portal": {
    "daily": {
@@ -8114,7 +8227,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-property-eye": {
    "daily": {
@@ -8474,7 +8587,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-residential-condition": {
    "daily": {
@@ -8821,7 +8934,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison-str-dashboard": {
    "daily": {
@@ -9072,7 +9185,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison_ai_demos": {
    "daily": {
@@ -9419,7 +9532,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "gunnison_gis_mapping_static_demo": {
    "daily": {
@@ -9766,7 +9879,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "lottery-project": {
    "daily": {
@@ -10113,7 +10226,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "repo-traffic-dashboard": {
    "daily": {
@@ -10440,15 +10553,15 @@
     "homepage": "https://eesterlein.github.io/repo-traffic-dashboard/",
     "language": "HTML",
     "pages": true,
-    "pushed": "2026-11-14",
-    "size_kb": 143,
+    "pushed": "2026-11-15",
+    "size_kb": 144,
     "stars": 0,
     "url": "https://github.com/Eesterlein/repo-traffic-dashboard",
     "watchers": 0
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "second-thought": {
    "daily": {
@@ -10783,7 +10896,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "storybook-components": {
    "daily": {
@@ -11130,7 +11243,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "us-state-demographics-sql-acs2019": {
    "daily": {
@@ -11477,7 +11590,7 @@
    },
    "paths": [],
    "referrers": [],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   },
   "zillow-photo-scraper-scraperapi": {
    "daily": {
@@ -11837,7 +11950,7 @@
      "uniques": 1
     }
    ],
-   "updated": "2026-11-15T14:02:55Z"
+   "updated": "2026-11-16T15:59:02Z"
   }
  }
 }
