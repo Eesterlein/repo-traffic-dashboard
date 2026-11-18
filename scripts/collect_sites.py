@@ -14,6 +14,7 @@ Env:
 import json
 import os
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -36,8 +37,13 @@ def get(path, **params):
         "Content-Type": "application/json",
         "User-Agent": "repo-traffic-dashboard",
     })
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        # Say which request failed and what GoatCounter answered (the token is only in the header, never printed).
+        body = e.read().decode("utf-8", "replace")[:300]
+        raise RuntimeError(f"{e.code} {e.reason} on /api/v0/{path}: {body}") from None
 
 
 def stamp(dt):
