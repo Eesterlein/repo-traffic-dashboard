@@ -1,11 +1,15 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-10-13T14:20:53Z",
+ "collected_at": "2026-11-18T05:20:12Z",
  "pages": {
   "/": {
    "daily": {
     "2026-10-07": 1,
-    "2026-10-08": 1
+    "2026-10-08": 1,
+    "2026-11-06": 1,
+    "2026-11-12": 1,
+    "2026-11-13": 4,
+    "2026-11-17": 1
    },
    "event": false,
    "hourly": {
@@ -14,17 +18,137 @@
     },
     "2026-10-08": {
      "9": 1
+    },
+    "2026-11-06": {
+     "9": 1
+    },
+    "2026-11-12": {
+     "20": 1
+    },
+    "2026-11-13": {
+     "15": 4
+    },
+    "2026-11-17": {
+     "21": 1
     }
    },
    "title": "Elissa Esterlein"
   },
+  "/gunnison-land-attributes-demo": {
+   "daily": {
+    "2026-11-06": 1,
+    "2026-11-09": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    },
+    "2026-11-09": {
+     "10": 1
+    }
+   },
+   "title": "Gunnison Land Attributes"
+  },
+  "click: http://165.232.147.15/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/github-field-guide/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/gunnison-land-attributes-demo/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/gunnison-str-dashboard/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://github.com/Eesterlein/gunnison-permit-portal": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "9": 1
+    }
+   },
+   "title": "Code \u2197"
+  },
+  "click: https://public.tableau.com/app/profile/elissa.esterlein/vizzes": {
+   "daily": {
+    "2026-11-13": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-13": {
+     "15": 1
+    }
+   },
+   "title": "Tableau Public \u2197"
+  },
   "stay 2m: /": {
    "daily": {
-    "2026-10-08": 1
+    "2026-10-08": 1,
+    "2026-11-06": 1,
+    "2026-11-13": 1
    },
    "event": true,
    "hourly": {
     "2026-10-08": {
+     "10": 1
+    },
+    "2026-11-06": {
+     "10": 1
+    },
+    "2026-11-13": {
+     "15": 1
+    }
+   },
+   "title": "Stayed 2m+"
+  },
+  "stay 2m: /gunnison-land-attributes-demo/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
      "10": 1
     }
    },
@@ -32,52 +156,144 @@
   },
   "stay 30s: /": {
    "daily": {
-    "2026-10-08": 1
+    "2026-10-08": 1,
+    "2026-11-06": 1,
+    "2026-11-12": 1,
+    "2026-11-13": 1
    },
    "event": true,
    "hourly": {
     "2026-10-08": {
      "9": 1
+    },
+    "2026-11-06": {
+     "9": 1
+    },
+    "2026-11-12": {
+     "20": 1
+    },
+    "2026-11-13": {
+     "15": 1
     }
    },
    "title": "Stayed 30s+"
+  },
+  "stay 30s: /gunnison-land-attributes-demo/": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Stayed 30s+"
+  },
+  "stay 5m: /": {
+   "daily": {
+    "2026-11-06": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-06": {
+     "10": 1
+    }
+   },
+   "title": "Stayed 5m+"
   }
  },
  "snapshot": {
   "browsers": [
    {
-    "count": 4,
+    "count": 28,
     "name": "Chrome"
+   },
+   {
+    "count": 12,
+    "name": "Firefox"
+   },
+   {
+    "count": 6,
+    "name": "Safari"
+   },
+   {
+    "count": 1,
+    "name": "(unknown)"
    }
   ],
   "countries": [
    {
-    "count": 4,
+    "count": 34,
     "name": "United States"
+   },
+   {
+    "count": 12,
+    "name": "Switzerland"
+   },
+   {
+    "count": 1,
+    "name": "Japan"
    }
   ],
-  "end": "2026-10-13",
+  "end": "2026-11-18",
   "referrers": [
    {
+    "count": 16,
+    "name": "(unknown)"
+   },
+   {
+    "count": 6,
+    "name": "www.linkedin.com"
+   },
+   {
     "count": 4,
-    "name": "github.com"
+    "name": "github.com/Eesterlein/gunnison-assessor-audit"
+   },
+   {
+    "count": 4,
+    "name": "github.com/Eesterlein/-data-analyst-portfolio"
+   },
+   {
+    "count": 1,
+    "name": "bing.com"
    }
   ],
   "sizes": [
    {
+    "count": 6,
+    "name": "phone"
+   },
+   {
     "count": 1,
+    "name": "tablet"
+   },
+   {
+    "count": 27,
     "name": "desktop"
    },
    {
-    "count": 3,
+    "count": 13,
     "name": "desktophd"
    }
   ],
-  "start": "2026-09-14",
+  "start": "2026-10-20",
   "systems": [
    {
-    "count": 4,
+    "count": 27,
+    "name": "Windows"
+   },
+   {
+    "count": 13,
     "name": "macOS"
+   },
+   {
+    "count": 6,
+    "name": "iOS"
+   },
+   {
+    "count": 1,
+    "name": "(unknown)"
    }
   ]
  },
