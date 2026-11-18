@@ -1,11 +1,16 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-18T05:20:12Z",
+ "collected_at": "2026-11-18T05:24:37Z",
  "pages": {
   "/": {
    "daily": {
     "2026-10-07": 1,
     "2026-10-08": 1,
+    "2026-10-13": 1,
+    "2026-10-19": 1,
+    "2026-10-22": 2,
+    "2026-10-28": 1,
+    "2026-10-30": 1,
     "2026-11-06": 1,
     "2026-11-12": 1,
     "2026-11-13": 4,
@@ -14,10 +19,26 @@
    "event": false,
    "hourly": {
     "2026-10-07": {
-     "20": 1
+     "19": 1
     },
     "2026-10-08": {
-     "9": 1
+     "8": 1
+    },
+    "2026-10-13": {
+     "13": 1
+    },
+    "2026-10-19": {
+     "3": 1
+    },
+    "2026-10-22": {
+     "10": 1,
+     "20": 1
+    },
+    "2026-10-28": {
+     "12": 1
+    },
+    "2026-10-30": {
+     "10": 1
     },
     "2026-11-06": {
      "9": 1
@@ -34,13 +55,41 @@
    },
    "title": "Elissa Esterlein"
   },
+  "/colorado-land-ownership": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
+    }
+   },
+   "title": "Introduction | Who Owns Colorado?"
+  },
+  "/gunnison-assessor-audit": {
+   "daily": {
+    "2026-10-26": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-10-26": {
+     "12": 1
+    }
+   },
+   "title": "Gunnison Assessor Audit"
+  },
   "/gunnison-land-attributes-demo": {
    "daily": {
+    "2026-10-19": 1,
     "2026-11-06": 1,
     "2026-11-09": 1
    },
    "event": false,
    "hourly": {
+    "2026-10-19": {
+     "3": 1
+    },
     "2026-11-06": {
      "10": 1
     },
@@ -50,14 +99,66 @@
    },
    "title": "Gunnison Land Attributes"
   },
+  "/gunnison-residential-condition": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
+    }
+   },
+   "title": "Residential Improvements \u2013 Gunnison County Dashboard"
+  },
   "click: http://165.232.147.15/": {
    "daily": {
+    "2026-10-19": 1,
     "2026-11-06": 1
    },
    "event": true,
    "hourly": {
+    "2026-10-19": {
+     "3": 1
+    },
     "2026-11-06": {
      "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://datastudio.google.com/s/uXnrNlgCZN0": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/ai-field-guide/": {
+   "daily": {
+    "2026-10-30": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-30": {
+     "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/colorado-land-ownership/": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
     }
    },
    "title": "Open live \u2197"
@@ -76,12 +177,28 @@
   },
   "click: https://eesterlein.github.io/gunnison-land-attributes-demo/": {
    "daily": {
+    "2026-10-19": 1,
     "2026-11-06": 1
    },
    "event": true,
    "hourly": {
+    "2026-10-19": {
+     "3": 1
+    },
     "2026-11-06": {
      "10": 1
+    }
+   },
+   "title": "Open live \u2197"
+  },
+  "click: https://eesterlein.github.io/gunnison-residential-condition/": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
     }
    },
    "title": "Open live \u2197"
@@ -98,6 +215,18 @@
    },
    "title": "Open live \u2197"
   },
+  "click: https://github.com/Eesterlein/Appraiser-Photo-Processor": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
+    }
+   },
+   "title": "Code \u2197"
+  },
   "click: https://github.com/Eesterlein/gunnison-permit-portal": {
    "daily": {
     "2026-11-06": 1
@@ -106,6 +235,18 @@
    "hourly": {
     "2026-11-06": {
      "9": 1
+    }
+   },
+   "title": "Code \u2197"
+  },
+  "click: https://github.com/Eesterlein/gunnison-property-eye": {
+   "daily": {
+    "2026-10-13": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-13": {
+     "13": 1
     }
    },
    "title": "Code \u2197"
@@ -125,19 +266,35 @@
   "stay 2m: /": {
    "daily": {
     "2026-10-08": 1,
+    "2026-10-28": 1,
     "2026-11-06": 1,
     "2026-11-13": 1
    },
    "event": true,
    "hourly": {
     "2026-10-08": {
-     "10": 1
+     "9": 1
+    },
+    "2026-10-28": {
+     "12": 1
     },
     "2026-11-06": {
      "10": 1
     },
     "2026-11-13": {
      "15": 1
+    }
+   },
+   "title": "Stayed 2m+"
+  },
+  "stay 2m: /gunnison-assessor-audit/": {
+   "daily": {
+    "2026-10-26": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-26": {
+     "12": 1
     }
    },
    "title": "Stayed 2m+"
@@ -157,6 +314,9 @@
   "stay 30s: /": {
    "daily": {
     "2026-10-08": 1,
+    "2026-10-19": 1,
+    "2026-10-28": 1,
+    "2026-10-30": 1,
     "2026-11-06": 1,
     "2026-11-12": 1,
     "2026-11-13": 1
@@ -164,7 +324,16 @@
    "event": true,
    "hourly": {
     "2026-10-08": {
-     "9": 1
+     "8": 1
+    },
+    "2026-10-19": {
+     "3": 1
+    },
+    "2026-10-28": {
+     "12": 1
+    },
+    "2026-10-30": {
+     "10": 1
     },
     "2026-11-06": {
      "9": 1
@@ -174,6 +343,30 @@
     },
     "2026-11-13": {
      "15": 1
+    }
+   },
+   "title": "Stayed 30s+"
+  },
+  "stay 30s: /colorado-land-ownership/": {
+   "daily": {
+    "2026-10-19": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-19": {
+     "3": 1
+    }
+   },
+   "title": "Stayed 30s+"
+  },
+  "stay 30s: /gunnison-assessor-audit/": {
+   "daily": {
+    "2026-10-26": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-26": {
+     "12": 1
     }
    },
    "title": "Stayed 30s+"
@@ -198,6 +391,18 @@
    "hourly": {
     "2026-11-06": {
      "10": 1
+    }
+   },
+   "title": "Stayed 5m+"
+  },
+  "stay 5m: /gunnison-assessor-audit/": {
+   "daily": {
+    "2026-10-26": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-10-26": {
+     "13": 1
     }
    },
    "title": "Stayed 5m+"
