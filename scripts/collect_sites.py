@@ -43,6 +43,10 @@ def get(path, **params):
     except urllib.error.HTTPError as e:
         # Say which request failed and what GoatCounter answered (the token is only in the header, never printed).
         body = e.read().decode("utf-8", "replace")[:300]
+        if e.code == 404 and path.startswith("stats/"):
+            # A stats request with nothing to report in the window: treat as empty, keep going.
+            print(f"note: 404 on /api/v0/{path} (treated as no data): {body}")
+            return {"hits": [], "stats": [], "more": False}
         raise RuntimeError(f"{e.code} {e.reason} on /api/v0/{path}: {body}") from None
 
 
@@ -66,7 +70,9 @@ def all_hits(start, end):
 
 def top(kind, start, end):
     page = get(f"stats/{kind}", start=stamp(start), end=stamp(end), limit=20)
-    return [{"name": s["name"] or s["id"], "count": s["count"]} for s in page["stats"] if s["count"]]
+    # Some rows have an empty name (e.g. direct visits with no referrer) and no id, so fall back safely.
+    return [{"name": s.get("name") or s.get("id") or "(unknown)", "count": s.get("count", 0)}
+            for s in page.get("stats") or [] if s.get("count")]
 
 
 def main():
