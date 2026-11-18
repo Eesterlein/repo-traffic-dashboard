@@ -26,7 +26,7 @@ API = f"https://{CODE}.goatcounter.com/api/v0"
 DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "sites.json"
 
 # GoatCounter's hits are counted visitors, not raw page loads.
-HISTORY_DAYS = 14
+HISTORY_DAYS = 60  # wide enough to backfill gaps if collection ever fails for a while
 SNAPSHOT_DAYS = 30
 
 
