@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-18T15:46:32Z",
+ "collected_at": "2026-11-19T15:52:53Z",
  "pages": {
   "/": {
    "daily": {
@@ -415,10 +415,6 @@
     "name": "Chrome"
    },
    {
-    "count": 12,
-    "name": "Firefox"
-   },
-   {
     "count": 6,
     "name": "Safari"
    },
@@ -433,15 +429,11 @@
     "name": "United States"
    },
    {
-    "count": 12,
-    "name": "Switzerland"
-   },
-   {
     "count": 1,
     "name": "Japan"
    }
   ],
-  "end": "2026-11-18",
+  "end": "2026-11-19",
   "referrers": [
    {
     "count": 16,
@@ -474,7 +466,7 @@
     "name": "tablet"
    },
    {
-    "count": 27,
+    "count": 15,
     "name": "desktop"
    },
    {
@@ -482,10 +474,10 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-20",
+  "start": "2026-10-21",
   "systems": [
    {
-    "count": 27,
+    "count": 15,
     "name": "Windows"
    },
    {
