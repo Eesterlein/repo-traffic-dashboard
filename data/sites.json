@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-19T15:52:53Z",
+ "collected_at": "2026-11-20T15:34:48Z",
  "pages": {
   "/": {
    "daily": {
@@ -433,7 +433,7 @@
     "name": "Japan"
    }
   ],
-  "end": "2026-11-19",
+  "end": "2026-11-20",
   "referrers": [
    {
     "count": 16,
@@ -474,7 +474,7 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-21",
+  "start": "2026-10-22",
   "systems": [
    {
     "count": 15,
