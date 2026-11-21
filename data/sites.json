@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-20T15:34:48Z",
+ "collected_at": "2026-11-21T14:45:38Z",
  "pages": {
   "/": {
    "daily": {
@@ -411,7 +411,7 @@
  "snapshot": {
   "browsers": [
    {
-    "count": 28,
+    "count": 35,
     "name": "Chrome"
    },
    {
@@ -425,7 +425,7 @@
   ],
   "countries": [
    {
-    "count": 34,
+    "count": 41,
     "name": "United States"
    },
    {
@@ -433,7 +433,7 @@
     "name": "Japan"
    }
   ],
-  "end": "2026-11-20",
+  "end": "2026-11-21",
   "referrers": [
    {
     "count": 16,
@@ -445,11 +445,19 @@
    },
    {
     "count": 4,
+    "name": "teams.public.onecdn.static.microsoft"
+   },
+   {
+    "count": 4,
     "name": "github.com/Eesterlein/gunnison-assessor-audit"
    },
    {
     "count": 4,
     "name": "github.com/Eesterlein/-data-analyst-portfolio"
+   },
+   {
+    "count": 2,
+    "name": "github.com"
    },
    {
     "count": 1,
@@ -466,7 +474,7 @@
     "name": "tablet"
    },
    {
-    "count": 15,
+    "count": 22,
     "name": "desktop"
    },
    {
@@ -474,10 +482,10 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-22",
+  "start": "2026-10-23",
   "systems": [
    {
-    "count": 15,
+    "count": 22,
     "name": "Windows"
    },
    {
