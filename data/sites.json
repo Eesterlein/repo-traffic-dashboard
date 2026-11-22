@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-21T14:45:38Z",
+ "collected_at": "2026-11-22T14:41:55Z",
  "pages": {
   "/": {
    "daily": {
@@ -14,7 +14,9 @@
     "2026-11-06": 1,
     "2026-11-12": 1,
     "2026-11-13": 4,
-    "2026-11-17": 1
+    "2026-11-17": 1,
+    "2026-11-21": 1,
+    "2026-11-22": 1
    },
    "event": false,
    "hourly": {
@@ -51,9 +53,27 @@
     },
     "2026-11-17": {
      "21": 1
+    },
+    "2026-11-21": {
+     "20": 1
+    },
+    "2026-11-22": {
+     "6": 1
     }
    },
    "title": "Elissa Esterlein"
+  },
+  "/ai-field-guide": {
+   "daily": {
+    "2026-11-21": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-11-21": {
+     "9": 1
+    }
+   },
+   "title": "AI Field Guide"
   },
   "/colorado-land-ownership": {
    "daily": {
@@ -110,6 +130,19 @@
     }
    },
    "title": "Residential Improvements \u2013 Gunnison County Dashboard"
+  },
+  "/gunnison-str-dashboard": {
+   "daily": {
+    "2026-11-20": 3
+   },
+   "event": false,
+   "hourly": {
+    "2026-11-20": {
+     "10": 1,
+     "11": 2
+    }
+   },
+   "title": "Gunnison STR Monitor"
   },
   "click: http://165.232.147.15/": {
    "daily": {
@@ -311,6 +344,18 @@
    },
    "title": "Stayed 2m+"
   },
+  "stay 2m: /gunnison-str-dashboard/": {
+   "daily": {
+    "2026-11-20": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-20": {
+     "11": 1
+    }
+   },
+   "title": "Stayed 2m+"
+  },
   "stay 30s: /": {
    "daily": {
     "2026-10-08": 1,
@@ -383,6 +428,19 @@
    },
    "title": "Stayed 30s+"
   },
+  "stay 30s: /gunnison-str-dashboard/": {
+   "daily": {
+    "2026-11-20": 2
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-20": {
+     "10": 1,
+     "11": 1
+    }
+   },
+   "title": "Stayed 30s+"
+  },
   "stay 5m: /": {
    "daily": {
     "2026-11-06": 1
@@ -406,16 +464,28 @@
     }
    },
    "title": "Stayed 5m+"
+  },
+  "stay 5m: /gunnison-str-dashboard/": {
+   "daily": {
+    "2026-11-20": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-20": {
+     "11": 1
+    }
+   },
+   "title": "Stayed 5m+"
   }
  },
  "snapshot": {
   "browsers": [
    {
-    "count": 35,
+    "count": 36,
     "name": "Chrome"
    },
    {
-    "count": 6,
+    "count": 7,
     "name": "Safari"
    },
    {
@@ -425,18 +495,22 @@
   ],
   "countries": [
    {
-    "count": 41,
+    "count": 42,
     "name": "United States"
    },
    {
     "count": 1,
     "name": "Japan"
+   },
+   {
+    "count": 1,
+    "name": "Sweden"
    }
   ],
-  "end": "2026-11-21",
+  "end": "2026-11-22",
   "referrers": [
    {
-    "count": 16,
+    "count": 17,
     "name": "(unknown)"
    },
    {
@@ -456,7 +530,7 @@
     "name": "github.com/Eesterlein/-data-analyst-portfolio"
    },
    {
-    "count": 2,
+    "count": 3,
     "name": "github.com"
    },
    {
@@ -466,7 +540,7 @@
   ],
   "sizes": [
    {
-    "count": 6,
+    "count": 7,
     "name": "phone"
    },
    {
@@ -474,7 +548,7 @@
     "name": "tablet"
    },
    {
-    "count": 22,
+    "count": 23,
     "name": "desktop"
    },
    {
@@ -482,18 +556,18 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-23",
+  "start": "2026-10-24",
   "systems": [
    {
     "count": 22,
     "name": "Windows"
    },
    {
-    "count": 13,
+    "count": 14,
     "name": "macOS"
    },
    {
-    "count": 6,
+    "count": 7,
     "name": "iOS"
    },
    {
