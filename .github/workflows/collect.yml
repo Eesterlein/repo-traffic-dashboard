@@ -5,8 +5,7 @@ on:
     - cron: "17 6 * * *"   # daily, ~midnight Mountain time
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: collect-traffic
@@ -15,9 +14,13 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # commit the updated traffic data
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
       - name: Fetch traffic for all public repos
@@ -31,9 +34,11 @@ jobs:
           GOATCOUNTER_TOKEN: ${{ secrets.GOATCOUNTER_TOKEN }}
         run: python scripts/collect_sites.py
       - name: Commit updated data
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --cached --quiet || git commit -m "Update traffic data $(date -u +%F)"
-          git push
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main

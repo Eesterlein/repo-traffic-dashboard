@@ -5,16 +5,19 @@ on:
     - cron: "0 14 * * 1"   # Mondays, ~8am Mountain time
   workflow_dispatch:
 
-permissions:
-  issues: write
-  contents: read
+permissions: {}
 
 jobs:
   summary:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write # post the summary issue and close last week's
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
       - name: Post summary as an issue
