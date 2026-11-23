@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-22T14:41:55Z",
+ "collected_at": "2026-11-23T01:43:20Z",
  "pages": {
   "/": {
    "daily": {
@@ -481,36 +481,28 @@
  "snapshot": {
   "browsers": [
    {
-    "count": 36,
+    "count": 37,
     "name": "Chrome"
    },
    {
     "count": 7,
     "name": "Safari"
-   },
-   {
-    "count": 1,
-    "name": "(unknown)"
    }
   ],
   "countries": [
    {
-    "count": 42,
+    "count": 43,
     "name": "United States"
-   },
-   {
-    "count": 1,
-    "name": "Japan"
    },
    {
     "count": 1,
     "name": "Sweden"
    }
   ],
-  "end": "2026-11-22",
+  "end": "2026-11-23",
   "referrers": [
    {
-    "count": 17,
+    "count": 18,
     "name": "(unknown)"
    },
    {
@@ -544,11 +536,11 @@
     "name": "phone"
    },
    {
-    "count": 1,
+    "count": 2,
     "name": "tablet"
    },
    {
-    "count": 23,
+    "count": 22,
     "name": "desktop"
    },
    {
@@ -556,7 +548,7 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-24",
+  "start": "2026-10-25",
   "systems": [
    {
     "count": 22,
@@ -572,7 +564,7 @@
    },
    {
     "count": 1,
-    "name": "(unknown)"
+    "name": "Linux"
    }
   ]
  },
