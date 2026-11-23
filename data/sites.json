@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-23T01:43:20Z",
+ "collected_at": "2026-11-23T18:23:48Z",
  "pages": {
   "/": {
    "daily": {
@@ -16,7 +16,8 @@
     "2026-11-13": 4,
     "2026-11-17": 1,
     "2026-11-21": 1,
-    "2026-11-22": 1
+    "2026-11-22": 1,
+    "2026-11-23": 1
    },
    "event": false,
    "hourly": {
@@ -59,6 +60,9 @@
     },
     "2026-11-22": {
      "6": 1
+    },
+    "2026-11-23": {
+     "6": 1
     }
    },
    "title": "Elissa Esterlein"
@@ -74,6 +78,18 @@
     }
    },
    "title": "AI Field Guide"
+  },
+  "/blue-mesa-water-report": {
+   "daily": {
+    "2026-11-22": 1
+   },
+   "event": false,
+   "hourly": {
+    "2026-11-22": {
+     "12": 1
+    }
+   },
+   "title": "Blue Mesa Water Report"
   },
   "/colorado-land-ownership": {
    "daily": {
@@ -296,6 +312,18 @@
    },
    "title": "Tableau Public \u2197"
   },
+  "click: https://www.linkedin.com/in/elissa-esterlein-a80857369/": {
+   "daily": {
+    "2026-11-23": 1
+   },
+   "event": true,
+   "hourly": {
+    "2026-11-23": {
+     "6": 1
+    }
+   },
+   "title": "LinkedIn \u2197"
+  },
   "stay 2m: /": {
    "daily": {
     "2026-10-08": 1,
@@ -364,7 +392,8 @@
     "2026-10-30": 1,
     "2026-11-06": 1,
     "2026-11-12": 1,
-    "2026-11-13": 1
+    "2026-11-13": 1,
+    "2026-11-23": 1
    },
    "event": true,
    "hourly": {
@@ -388,6 +417,9 @@
     },
     "2026-11-13": {
      "15": 1
+    },
+    "2026-11-23": {
+     "6": 1
     }
    },
    "title": "Stayed 30s+"
@@ -481,7 +513,7 @@
  "snapshot": {
   "browsers": [
    {
-    "count": 37,
+    "count": 40,
     "name": "Chrome"
    },
    {
@@ -495,6 +527,10 @@
     "name": "United States"
    },
    {
+    "count": 3,
+    "name": "India"
+   },
+   {
     "count": 1,
     "name": "Sweden"
    }
@@ -502,7 +538,7 @@
   "end": "2026-11-23",
   "referrers": [
    {
-    "count": 18,
+    "count": 20,
     "name": "(unknown)"
    },
    {
@@ -528,6 +564,10 @@
    {
     "count": 1,
     "name": "bing.com"
+   },
+   {
+    "count": 1,
+    "name": "chatgpt.com"
    }
   ],
   "sizes": [
@@ -540,7 +580,7 @@
     "name": "tablet"
    },
    {
-    "count": 22,
+    "count": 25,
     "name": "desktop"
    },
    {
@@ -551,7 +591,7 @@
   "start": "2026-10-25",
   "systems": [
    {
-    "count": 22,
+    "count": 25,
     "name": "Windows"
    },
    {
