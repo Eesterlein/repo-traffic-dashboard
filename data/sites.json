@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-23T18:23:48Z",
+ "collected_at": "2026-11-24T17:54:36Z",
  "pages": {
   "/": {
    "daily": {
@@ -535,7 +535,7 @@
     "name": "Sweden"
    }
   ],
-  "end": "2026-11-23",
+  "end": "2026-11-24",
   "referrers": [
    {
     "count": 20,
@@ -588,7 +588,7 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-25",
+  "start": "2026-10-26",
   "systems": [
    {
     "count": 25,
