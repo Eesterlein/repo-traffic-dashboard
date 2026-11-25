@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-24T17:54:36Z",
+ "collected_at": "2026-11-25T17:21:59Z",
  "pages": {
   "/": {
    "daily": {
@@ -535,7 +535,7 @@
     "name": "Sweden"
    }
   ],
-  "end": "2026-11-24",
+  "end": "2026-11-25",
   "referrers": [
    {
     "count": 20,
@@ -548,10 +548,6 @@
    {
     "count": 4,
     "name": "teams.public.onecdn.static.microsoft"
-   },
-   {
-    "count": 4,
-    "name": "github.com/Eesterlein/gunnison-assessor-audit"
    },
    {
     "count": 4,
@@ -588,7 +584,7 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-26",
+  "start": "2026-10-27",
   "systems": [
    {
     "count": 25,
