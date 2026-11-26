@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-25T17:21:59Z",
+ "collected_at": "2026-11-26T17:02:06Z",
  "pages": {
   "/": {
    "daily": {
@@ -513,17 +513,17 @@
  "snapshot": {
   "browsers": [
    {
-    "count": 40,
+    "count": 36,
     "name": "Chrome"
    },
    {
-    "count": 7,
+    "count": 8,
     "name": "Safari"
    }
   ],
   "countries": [
    {
-    "count": 43,
+    "count": 40,
     "name": "United States"
    },
    {
@@ -535,10 +535,10 @@
     "name": "Sweden"
    }
   ],
-  "end": "2026-11-25",
+  "end": "2026-11-26",
   "referrers": [
    {
-    "count": 20,
+    "count": 21,
     "name": "(unknown)"
    },
    {
@@ -568,7 +568,7 @@
   ],
   "sizes": [
    {
-    "count": 7,
+    "count": 8,
     "name": "phone"
    },
    {
@@ -576,7 +576,7 @@
     "name": "tablet"
    },
    {
-    "count": 25,
+    "count": 21,
     "name": "desktop"
    },
    {
@@ -584,10 +584,10 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-27",
+  "start": "2026-10-28",
   "systems": [
    {
-    "count": 25,
+    "count": 21,
     "name": "Windows"
    },
    {
@@ -595,7 +595,7 @@
     "name": "macOS"
    },
    {
-    "count": 7,
+    "count": 8,
     "name": "iOS"
    },
    {
