@@ -1,6 +1,6 @@
 {
  "code": "eesterlein",
- "collected_at": "2026-11-26T17:02:06Z",
+ "collected_at": "2026-11-27T16:47:33Z",
  "pages": {
   "/": {
    "daily": {
@@ -69,12 +69,16 @@
   },
   "/ai-field-guide": {
    "daily": {
-    "2026-11-21": 1
+    "2026-11-21": 1,
+    "2026-11-25": 1
    },
    "event": false,
    "hourly": {
     "2026-11-21": {
      "9": 1
+    },
+    "2026-11-25": {
+     "21": 1
     }
    },
    "title": "AI Field Guide"
@@ -535,10 +539,10 @@
     "name": "Sweden"
    }
   ],
-  "end": "2026-11-26",
+  "end": "2026-11-27",
   "referrers": [
    {
-    "count": 21,
+    "count": 18,
     "name": "(unknown)"
    },
    {
@@ -584,7 +588,7 @@
     "name": "desktophd"
    }
   ],
-  "start": "2026-10-28",
+  "start": "2026-10-29",
   "systems": [
    {
     "count": 21,
